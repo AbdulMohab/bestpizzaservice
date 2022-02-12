@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bestpizzaservice/static/css/main.a9145cc2.css",
+    "main.js": "/bestpizzaservice/static/js/main.26901d06.js",
+    "static/media/bg.jpg": "/bestpizzaservice/static/media/bg.38f4b3510c1c2bf3df46.jpg",
+    "static/media/bg2.jpg": "/bestpizzaservice/static/media/bg2.5af3ce0c027f459e1536.jpg",
+    "index.html": "/bestpizzaservice/index.html",
+    "main.a9145cc2.css.map": "/bestpizzaservice/static/css/main.a9145cc2.css.map",
+    "main.26901d06.js.map": "/bestpizzaservice/static/js/main.26901d06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9145cc2.css",
+    "static/js/main.26901d06.js"
+  ]
+}
