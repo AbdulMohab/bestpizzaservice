@@ -1,0 +1,577 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}      
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background: url("../public/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner__content{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding-top: 100px;
+  color: white;
+}
+.container{
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.banner__text{
+  width: 500px;
+}
+.banner__text h3{
+  font-size: 50px;
+}
+.banner__text h1{
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 750;
+  margin-top: 20px;
+}
+.banner__text p{
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.navbar{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 18px;
+}
+.navbar__text{
+  display: flex;
+  /* height: 60px; */
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+}
+.logo img{
+  width: 220px;
+}
+.navbar__ul{
+  width: 80%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+} 
+.navbar__ul li a {
+  text-decoration: none;
+  color:white;
+  padding: 15px 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.navbar__ul li {
+  padding: 15px 10px;
+  font-weight: 600;
+}
+.navbar__ul li:hover {
+  text-decoration: none;
+  color:white;
+  background-color: #FF454F;
+  cursor: pointer;
+}
+.banner__btn{
+  margin-top: 35px;
+}
+.btn{
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+.btn-smart{
+  background-color: #FF454F;
+}
+
+/* -------------ABOUT SECTION STARTING---------------- */
+
+.about{
+  padding: 80px 0;
+}
+.row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-6{
+  width: 50%;
+}
+.about h3{
+  color: #666666;
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.p-25{
+  padding: 45px;
+}
+.about h1{
+  font-size: 40px;
+  color: #252525;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.about p{
+  font-size: 18px;
+  color:#252525;
+  font-weight: 300;
+}
+.about__btn{
+  margin-top: 35px;
+}
+.about__img{
+  width: 100%;
+  overflow: hidden;
+}
+.about__img img{
+  width: 100%;
+}
+
+/* -------------SHOP SECTION STARTING---------------- */
+
+.shop{
+  width: 100%;
+  background: url("../public/img/bg2.jpg") center center no-repeat;
+  height: 600px;
+  background-size: 100% 85%;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* position: relative; */
+  background-attachment: fixed;
+}
+.shop__text{
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  color: white;
+}
+.shop__text h1{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  font-style: normal;
+  /* letter-spacing: px; */
+}
+.shop__btn{
+  margin-top: 35px;
+}
+
+/* -------------CLIENTS SECTION STARTING---------------- */
+
+.clients{
+  width: 100%;
+  padding: 100px 0;
+  /* background: url("../public/img/bg3.jpg"); */
+  background-color: #252525;
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  color: white;
+  background-attachment: fixed;
+}
+.col-3{
+  width: 25%;
+}
+.client{
+  text-align: center;
+}
+.client h1{
+  font-size: 45px;
+}
+.client p{
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 6px;
+}
+
+/* -------------PRICES SECTION STARTING---------------- */
+
+.prices{
+  width: 100%;
+  padding: 80 0;
+}
+.col-4{
+  width: 33.33333333333333%;
+}
+.price{
+  padding: 20px;
+  text-align: center;
+}
+.price__img{
+  width: 100%;
+}
+.price__img img{
+  width: 250px;
+}
+.price__heading{
+  margin-top: 18px;
+  font-size: 25px;
+}
+.price__text{
+  margin-top: 15px;
+  color: #888888;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+.price__rs{
+  font-size: 33px;
+  margin-top: 15px;
+  font-weight: 500;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* -------------CONTACT SECTION STARTING---------------- */
+
+.contact {
+  margin: 40px 0px;
+  padding-top: 55px;
+  background-color: #252525;
+}
+.contact__list{
+  width: 100%!important;
+}
+.contact h1{
+  font-size: 40px;
+  color: white;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.contact h3{
+  color: white;
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+.contact img {
+  height: 370px;
+}
+input.contact__list {
+  height: 40px;
+  margin: 6px 0px;
+  padding: 12px;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 18px;
+  color: black;
+}
+#contact__message{
+  height: 90px;
+  margin: 6px 0px;
+  padding: 12px;
+  border: 2px solid black;
+  /* #FF454F */
+  border-radius: 4px;
+  font-size: 18px;
+  color: black;
+}
+#contact__btn{
+  height: 50px;
+  margin: 6px 0px;
+  padding: 12px;
+  background-color:#FF454F ;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+#contact__btn:hover{
+  background-color:black;
+  cursor: pointer;
+  color: white;
+}
+.contact__list{
+  font-size: 18px;
+}
+.contact .col-6.p-25 {
+  margin-top: -45px;
+}
+
+
+/* -------------FOOTER SECTION STARTING---------------- */
+
+.footer{
+  background-color: #252525;
+  text-align: center;
+  padding: 24px 12px;
+  color: white;
+}
+.footer a{
+  /* background-color: #252525; */
+  /* text-align: center; */
+  /* padding: 24px 12px; */
+  color: #FF454F;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+
+
+
+/* -------------RESPONSIVENESS WIDTH = 700 PX ---------------- */
+
+@media (max-width: 700px){
+  .navbar__text{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .logo{
+    margin-bottom: 34px;
+    margin-top: 20px;
+  }
+  .container{
+    width: 100%;
+    padding: 0 30px;
+  }
+
+  .banner__text{
+    width: auto;
+  }
+  .banner__text h3{
+    font-size: 25px !important ;
+  }
+  .banner__text h1{
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 750;
+    margin-top: 20px;
+  }
+  .banner__text p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  .col-3,.col-4,.col-6{
+    width: 100%!important;
+  }
+  .client{
+    margin: 20px 0;
+  }
+  .navbar__ul{
+    width: 100%;
+    justify-content: center;
+    background-color: #252525;
+  }
+  .navbar__ul li{
+    margin: 2px;
+  }
+  .navbar__ul li a {
+    text-decoration: none;
+    color:white;
+    padding: 0 15px;
+    /* font-weight: 500; */
+    text-transform: uppercase;
+  }
+  .about h1{
+    font-size: 25px;
+  }
+
+}
+
+
+/* -------------RESPONSIVENESS WIDTH = 360 PX ---------------- */
+
+@media (max-width: 360px){
+  /* body{
+    background-color: #FF454F;
+  } */
+
+  li {
+    margin: 0px -4px!important;
+    padding: 20px 0px!important;
+    font-size: 12px!important;
+    font-weight: 300!important;
+}
+.banner h3 {
+  margin-top: 100px;
+  font-size: 26px!important;
+  line-height: 0px;
+}
+.banner h1 {
+  font-size: 40px;
+  line-height: 46px;
+  margin-top: 32px;
+}
+.container {
+  padding: 0px 16px;
+}
+.banner__content {
+  padding-bottom: 40px;
+}
+.banner p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.col-6.p-25 {
+  padding: 0px 0px;
+  width: 100%;
+  padding-bottom: 60px;
+}
+#about h1 {
+  font-size: 29px;
+}
+.about .row {
+  margin-top: -60px;
+}
+.about .col-6.p-25 {
+  margin-bottom: -12px;
+}
+.shop{
+  width: 100%;
+  background: url("../public/img/bg2.jpg") center center no-repeat;
+  height: 400px;
+  /* background-size: 100% 55%; */
+  background-size: cover;
+  background-attachment: fixed;
+}
+.shop__text{
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  color: white;
+}
+.shop__text h1{
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: 700;
+  margin-top: 123px;
+  font-style: normal;
+  text-align: center;
+}
+.shop__btn {
+  text-align: center;
+}
+#menu h1 {
+  font-size: 29px;
+}
+div#menu {
+  padding-top: 116px;
+}
+.about .col-6.p-25 {
+  margin-top: 30px;
+  margin-bottom: -68px;
+}
+.about h1 {
+  line-height: 32px;
+}
+#about img {
+  margin-top: 76px;
+  width: 100%!important;
+}
+.client h1 {
+  font-size: 34px;
+}
+.clients {
+  margin: 0px;
+  padding: 60px 0px;
+}
+.client {
+  margin: 28px 0px;
+}
+.contact h3 {
+  font-size: 32px;
+}
+.contact h1 {
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.contact{
+  padding-top: 74px;
+}
+.contact img {
+  height: 223px;
+}
+.contact img {
+  margin-bottom: 30px;
+}   
+button#contact__btn {
+  margin-bottom: -12px;
+}
+input.contact__list {
+  width: 100%!important;
+  font-size: 14px!important;
+  padding: 9px;
+  height: 34px;
+  margin: 3px 0px;
+}
+#contact__message {
+  width: 100%!important;
+  font-size: 14px!important;
+  padding: 9px;
+  height: 84px;
+  margin: 3px 0px;
+}
+#contact__btn{
+  height: 30px;
+  margin: 3px 0px;
+  padding: 12px opx;
+  background-color:#FF454F ;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  /* padding-bottom: 12px; */
+}
+#contact__btn:hover{
+  background-color:black;
+  cursor: pointer;
+  color: white;
+}
+button#contact__btn {
+  padding-bottom: 25px!important;
+  width: 100%!important;
+  padding-top: 14px;
+}
+
+.footer{
+  color: white;
+  font-size: 12px;
+}
+.footer a{
+  font-size: 16px;
+}
+}
+
