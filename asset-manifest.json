@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bestpizzaservice/static/css/main.73acff40.css",
-    "main.js": "/bestpizzaservice/static/js/main.98e4e66d.js",
+    "main.css": "/bestpizzaservice/static/css/main.36651d1c.css",
+    "main.js": "/bestpizzaservice/static/js/main.c9b73952.js",
     "static/media/bg.jpg": "/bestpizzaservice/static/media/bg.38f4b3510c1c2bf3df46.jpg",
     "static/media/bg2.jpg": "/bestpizzaservice/static/media/bg2.5af3ce0c027f459e1536.jpg",
     "index.html": "/bestpizzaservice/index.html",
-    "main.73acff40.css.map": "/bestpizzaservice/static/css/main.73acff40.css.map",
-    "main.98e4e66d.js.map": "/bestpizzaservice/static/js/main.98e4e66d.js.map"
+    "main.36651d1c.css.map": "/bestpizzaservice/static/css/main.36651d1c.css.map",
+    "main.c9b73952.js.map": "/bestpizzaservice/static/js/main.c9b73952.js.map"
   },
   "entrypoints": [
-    "static/css/main.73acff40.css",
-    "static/js/main.98e4e66d.js"
+    "static/css/main.36651d1c.css",
+    "static/js/main.c9b73952.js"
   ]
 }
